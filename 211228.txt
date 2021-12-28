@@ -1,0 +1,22 @@
+Ajax (Asynchronous JavaScript and XML): 
+페이지의 전환 없이도 동적으로 페이지의 내용을 교체하는 방법
+
+웹 문서-> 애플리케이션 
+그러나 웹은 문서가 맞고 그 위에 애플리케이션이 씌워진 것
+
+바뀔수 있는 부분만 Ajax로 동적으로 바꿔줌 -> 폭팔적인 생산력
+
+Ajax는 웹서버 구동 후 사용해야함
+
+fetch()
+then()
+
+response.status 200 : 성공
+response.status 404 : not found
+
+추가로 알아보면 좋은것들
+XML (리스트의 구분이 콤마만으로 어려울 때 배우면 됨 그러나 JSON이 더 좋음)
+JSON (XML과의 경쟁자, JSON이 승기를 잡고있음)
+Single Page Application (SPA) (Ajax를 기반으로 만들어진 웹)
+PJAX (pushState + ajax)
+Progressive Web Apps (PWA) (SPA 를 기반으로 만들어진 웹에 offline 에서도 동작하는 기능)
